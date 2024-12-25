@@ -4,7 +4,7 @@ public class Main {
     {
         //show's error becz in Box class we have specified bounded type parameter <T extends number> ,
         // It should be a class that should extends the Number class only
-      Box<String> box=new Box<String>();
+//      Box<String> box=new Box<String>();
 
     }
 }
