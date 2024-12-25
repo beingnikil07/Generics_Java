@@ -1,8 +1,9 @@
 package com.learn;
 
-//    These type parameters are placeholders that are replaced with specific types when the class is instantiated.
-//    private T value;
-public class Box<T>{
+//  Box<T extends  Number> ,In this example,
+// the type parameter T is restricted to subclasses of Number,
+// so only numeric types like Integer, Double, etc., can be used.
+public class Box<T extends  Number>{
     private T value;
 
     public T getValue() {
