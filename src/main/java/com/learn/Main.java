@@ -5,13 +5,10 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args)
     {
-        ArrayList list=new ArrayList();
-        list.add("Hello Nikhil");
-        list.add(21);
-        list.add(3.75);
-
-        String str=(String) list.get(0);
-        String s =(String) list.get(1);
-
+        //creating object of type of Box class
+        Box box=new Box();
+        box.setValue(1);
+        String i=(String) box.getValue();   //Exception occur in runtime
+        System.out.println(i);
     }
 }
