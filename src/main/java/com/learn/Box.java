@@ -1,13 +1,15 @@
 package com.learn;
 
-public class Box {
-    private Object value;
+//    These type parameters are placeholders that are replaced with specific types when the class is instantiated.
+//    private T value;
+public class Box<T>{
+    private T value;
 
-    public Object getValue() {
+    public T getValue() {
         return value;
     }
 
-    public void setValue(Object value) {
+    public void setValue(T value) {
         this.value = value;
     }
 }
